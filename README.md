@@ -7,3 +7,6 @@
 * git remote add origin [개인git주소]
 * (git remote remove origin // orogin 삭제
 * git push origin master
+
+
+## .git ignore는 무슨 차이

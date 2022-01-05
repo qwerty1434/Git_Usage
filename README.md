@@ -10,3 +10,6 @@
 
 
 ## .git ignore는 무슨 차이
+
+
+https://backlog.com/git-tutorial/kr/

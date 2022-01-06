@@ -9,7 +9,13 @@
 * git push origin master
 
 
-## .git ignore는 무슨 차이
+## .git ignore는 무슨 역할을 하는가
+
+
+## origin이란?
+
+## branch란?
+
 
 
 https://backlog.com/git-tutorial/kr/

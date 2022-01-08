@@ -16,6 +16,6 @@
 
 ## branch란?
 
-
+## 다른사람과 깃헙으로 협업하려면?
 
 https://backlog.com/git-tutorial/kr/

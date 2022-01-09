@@ -24,9 +24,17 @@
 * ```origin```에 다른 주소를 덮어쓰지 않았으면 ```git remote add origin [git_repository_주소]```를 생략할 수 있습니다.
 * ```git push origin master```
 
+
+### 비유
+```git init```: 컴퓨터를 켠다 or 메일함을 연다
+```git add```: 전송 파일을 선택한다
+```git commit```: 선택을 누른다
+```git remote add origin```: 받을사람 적기
+```git push origin master```: 전송하기 버튼
+
+
+
 ## 다른사람과 함께 작업할 때
-
-
 ### 개발 참여자
 * ```git clone [리퍼지토리 주소] ([폴더이름])```: 로컬에 지금까지의 작업내용을 받아 옵니다.
 * 로컬에서 작업을 진행합니다.

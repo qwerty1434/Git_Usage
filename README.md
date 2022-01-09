@@ -1,37 +1,60 @@
 # 깃 사용법
-* git bash 설치
-* git bash 세팅
-  * git config --global user.name "내 이름" 
-  * git config --global user.email "깃허브 이메일"
-  * config 확인 : git config --list
-## 최초
-* git init // 깃을 사용하기 위해 초기화를 하겠다, `맨처음` 프로젝트를 올릴 때 git init을 해줘야 함 (처음 한번만)
-* git add . // 해당 폴더에 있는 파일 전부 다 깃헙에 올리기
-* git status // 현재상태, add될 파일이 무엇인지를 보여줌, (필수 아님)
-* git commit -m "first commit" // git commit: 히스토리를 만들어줌, 최종(first commit),최종최종,진짜최종,...같은 느낌 (커밋 메시지가 히스토리 이름)
-* git remote add origin [git repository주소] // status의 파일을 [git repository주소]에 보내겠다는 뜻, repository와 local를 연결
-* git remote -v // git repository와 local이 잘 연결되었는지 확인할 수 있음
-* git push origin master // 전송버튼
-## 수정
-* git add * 
-* git commit -m "second commit"
-* 배쉬를 껐다가 켰을 때 git remote add origin [주소] 는 안해도 되는건가?
-* git push origin master
+## 참조영상
+* https://www.youtube.com/watch?v=lelVripbt2M
+* https://www.youtube.com/watch?v=cwC8t9dno2s
+
+## 먼저 git bash를 설치하고 간단한 세팅을 해야 합니다.
+* 설치
+* ```git config --global user.name "내 이름" ```
+* ```git config --global user.email "깃허브 이메일"```
+* ```git config --list```를 했을 때 user.name과 user.email이 들어있으면 성공입니다
+
+## 처음 올릴 때
+* ```git init``` : 깃을 사용하기 위한 초기화 명령어 입니다. 맨 처음 프로젝트를 올릴 때 ***최초 한 번만*** 해주시면 됩니다.
+* ```git add .```: 해당 폴더에 있는 파일을 전부 깃허브에 올리겠다는 뜻입니다.
+* ```git status```: 현재상태를 확인하는 것으로, add된 파일이 무엇인지를 확인할 수 있습니다. (업로드와 무관합니다)
+* ```git commit -m "first commit"```: 작성 내용에 대한 히스토리를 만들어줍니다.
+    * 최종,최종최종,진짜최종,... 같은 느낌입니다 
+* ```git remote add origin [git_repository_주소]```: status의 파일을 [git_repository_주소]에 보내겠다는 의미입니다. local과 repository를 연결해 줍니다.
+* ```git remote -v```: git repository와 local이 잘 연결되었는지 확인할 수 있습니다. (업로드와 무관합니다)
+* ```git push origin master```: 마스터 브랜치에 파일을 올립니다. 최종전송버튼 역할입니다.
+## 추가 작업할 때
+* ```git add *``` 
+* ```git commit -m "second commit"```
+* ```origin```에 다른 주소를 덮어쓰지 않았으면 ```git remote add origin [git_repository_주소]```를 생략할 수 있습니다.
+* ```git push origin master```
+
+## 다른사람과 함께 작업할 때
 
 
-## 사용하던 것
-* (git init)
-* git add [filename]
-* git commit -m [commit message]
-* git remote add origin [개인git주소]
-* (git remote remove origin // orogin 삭제
-* git push origin master
+### 개발 참여자
+* ```git clone [리퍼지토리 주소] ([폴더이름])```: 로컬에 지금까지의 작업내용을 받아 옵니다.
+* 로컬에서 작업을 진행합니다.
+* ```git add *```: 작업 내용을 업로드 합니다.
+* ```git commit -m "contributor\'s first commit"``` 
+* ~~git push origin master~~ 마스터에 본인의 코드를 바로 올리면 <font color = 'red'>절대 안됩니다.</font>
+* ```git checkout -b [브랜치 이름]```: 본인의 작업을 올릴 브랜치를 생성합니다.
+* ```git push origin [브랜치 이름]```: ```master```가 아닌 브랜치에 작업 내용을 올립니다.
+*	git repository주소에 접속해 ```compare & pull request```를 누릅니다. // 커밋 메시지 적기,
+	* 커밋 메시지를 적어줍니다.
+    * ```create pull request```를 누릅니다.(```확인해 보시고 괜찮으면 마스터에 합쳐주세요```라는 의미입니다)
 
+### Repository 생성자 
+*	(최초 Repository를 생성합니다)
+* [참여자의 pull request 요청이 들어온 후] - branch를 눌러 내용을 확인하고 내용이 괜찮다면 ```merge pull request```를 눌러 ```master```에 합쳐 줍니다.
 
+*	```1.1ver```으로 작업을 하고 있었는데 다른 Contributor가 자신의 작업을 끝내고 이를 ```master```에 추가해 ```1.2ver```이 된 상황을 가정해 봅시다.
+	*	생성자는 ```1.2ver```으로의 업데이트도 필요한 동시에 ```1.1ver```의 작업내용이 사라져서는 안됩니다.
+	*	먼저 ```1.1ver```에서의 작업을 올려줘야 합니다.
+    	*	```git add *```
+        *	``` git commit -m "second commit"```
+        *	~~git push origin master~~ push 먼저 하면 <font color = 'red'>절대 안됩니다.</font>
+		*	``` git push origin master```:```1.2ver```으로 동기화를 먼저 해 줍니다.
+        	*	내 코드와 다른 개발자의 코드 모두 존재하는 상황입니다.
+        *	```git push origin master```로 최종 작업을 ```master```에 올려 줍니다.
 
 
 ## .git ignore는 무슨 역할을 하는가
-
 
 ## origin이란?
 

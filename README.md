@@ -27,12 +27,17 @@
 
 ### 비유
 ```git init```: 컴퓨터를 켠다 or 메일함을 연다
+
 ```git add```: 전송 파일을 선택한다
+
 ```git commit```: 선택을 누른다
+
 ```git remote add origin```: 받을사람 적기
+
 ```git push origin master```: 전송하기 버튼
 
 
+![image](https://user-images.githubusercontent.com/25142537/148748881-0147ec18-502c-45b5-b1d5-5a7572fda379.png)
 
 ## 다른사람과 함께 작업할 때
 ### 개발 참여자

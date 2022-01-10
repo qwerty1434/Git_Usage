@@ -25,8 +25,8 @@
 * ```git push origin master```
 
 
-### 비유
-```git init```: 컴퓨터를 켠다 or 메일함을 연다
+### git을 메일보내기에 비유한다면
+```git init```: 메일함을 연다
 
 ```git add```: 전송 파일을 선택한다
 

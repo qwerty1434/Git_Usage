@@ -75,4 +75,8 @@
 
 ## 다른사람과 깃헙으로 협업하려면?
 
-https://backlog.com/git-tutorial/kr/
+
+
+## 깃허브 튜토리얼 
+*	원숭이 - https://backlog.com/git-tutorial/kr/
+*	게임 - https://learngitbranching.js.org/?locale=ko

@@ -67,13 +67,13 @@
         *	```git push origin master```로 최종 작업을 ```master```에 올려 줍니다.
 
 
-## .git ignore는 무슨 역할을 하는가
+## .git ignore
+*	Git 버전 관리에서 제외할 파일 목록들
 
-## origin이란?
-
+## origin?
+*	관례적으로 사용하는 변수 이름이다
 ## branch란?
-
-## 다른사람과 깃헙으로 협업하려면?
+* 독립적인 작업이 가능하게 해줌
 
 
 

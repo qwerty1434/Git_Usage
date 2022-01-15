@@ -84,3 +84,5 @@
 ## 깃허브 튜토리얼 
 *	원숭이 - https://backlog.com/git-tutorial/kr/
 *	게임 - https://learngitbranching.js.org/?locale=ko
+
+## 이전 버전으로 돌려놓기 해보기

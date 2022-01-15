@@ -32,9 +32,9 @@
 
 ```git commit```: 선택을 누른다
 
-```git remote add origin```: 받을사람 적기
+```git remote add origin```: 받을사람 주소를 적는다
 
-```git push origin master```: 전송하기 버튼
+```git push origin master```: 전송하기 버튼을 누른다
 
 
 ![image](https://user-images.githubusercontent.com/25142537/148748881-0147ec18-502c-45b5-b1d5-5a7572fda379.png)

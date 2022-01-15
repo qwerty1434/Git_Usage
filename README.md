@@ -79,6 +79,7 @@
 
 ## git init과 .Git파일?
 
+## git commit -am은 무엇?
 
 ## 깃허브 튜토리얼 
 *	원숭이 - https://backlog.com/git-tutorial/kr/

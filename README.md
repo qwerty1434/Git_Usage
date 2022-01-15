@@ -62,8 +62,10 @@
     	*	```git add *```
         *	``` git commit -m "second commit"```
         *	~~git push origin master~~ push 먼저 하면 <font color = 'red'>절대 안됩니다.</font>
-		*	``` git push origin master```:```1.2ver```으로 동기화를 먼저 해 줍니다.
+		*	``` git pull origin master```:```1.2ver```으로 동기화를 먼저 해 줍니다.
         	*	내 코드와 다른 개발자의 코드 모두 존재하는 상황입니다.
+	        *	``` Pulling is not possible because you have unmerged files``` 에러가 뜬다면
+		        *	```git commit -am "message"```로 해결 
         *	```git push origin master```로 최종 작업을 ```master```에 올려 줍니다.
 
 

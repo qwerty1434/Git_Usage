@@ -43,6 +43,9 @@
 ### 개발 참여자
 * ```git clone [리퍼지토리 주소] ([폴더이름])```: 로컬에 지금까지의 작업내용을 받아 옵니다.
 * 로컬에서 작업을 진행합니다.
+* git remote -v를 해서 repository와 git bash가 연결되어 있는지 확인합니다.
+	*	연결되어 있지 않다면 git remote add origin <repo주소>를 통해 연결해 줍니다. 	
+
 * ```git add *```: 작업 내용을 업로드 합니다.
 * ```git commit -m "contributor\'s first commit"``` 
 * ~~git push origin master~~ 마스터에 본인의 코드를 바로 올리면 <font color = 'red'>절대 안됩니다.</font>

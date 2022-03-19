@@ -84,6 +84,9 @@
 
 ## git commit -am은 무엇?
 
+## 커밋 히스토리 확인
+*	git log
+
 ## 깃허브 튜토리얼 
 *	원숭이 - https://backlog.com/git-tutorial/kr/
 *	게임 - https://learngitbranching.js.org/?locale=ko

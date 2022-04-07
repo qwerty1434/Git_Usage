@@ -92,3 +92,8 @@
 *	게임 - https://learngitbranching.js.org/?locale=ko
 
 ## 이전 버전으로 돌려놓기 해보기
+
+
+# Commit Convention
+*	https://doublesprogramming.tistory.com/256
+

@@ -97,3 +97,7 @@
 # Commit Convention
 *	https://doublesprogramming.tistory.com/256
 
+# 형상관리란?
+*	소프트웨어의 변경사항을 체계적으로 추적하고 통제하는 것
+*	프로젝트와 관련된 모든 변경사항을 관리하는 것
+

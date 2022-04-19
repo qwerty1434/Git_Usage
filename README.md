@@ -75,14 +75,11 @@
 ## .git ignore
 *	Git 버전 관리에서 제외할 파일 목록들
 
-## origin?
+## origin
 *	관례적으로 사용하는 변수 이름이다
-## branch란?
+## branch
 * 독립적인 작업이 가능하게 해줌
 
-## git init과 .Git파일?
-
-## git commit -am은 무엇?
 
 ## 커밋 히스토리 확인
 *	git log
@@ -91,13 +88,11 @@
 *	원숭이 - https://backlog.com/git-tutorial/kr/
 *	게임 - https://learngitbranching.js.org/?locale=ko
 
-## 이전 버전으로 돌려놓기 해보기
-
 
 # Commit Convention
 *	https://doublesprogramming.tistory.com/256
 
-# 형상관리란?
+# 형상관리
 *	소프트웨어의 변경사항을 체계적으로 추적하고 통제하는 것
 *	프로젝트와 관련된 모든 변경사항을 관리하는 것
 
